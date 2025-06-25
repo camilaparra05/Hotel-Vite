@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Customización general */
+:root {
+  font-family: 'Open Sans', sans-serif;
+  color-scheme: light;
+  --primary: #f59e0b;
+  /* Naranja suave */
+  --secondary: #fff7ed;
+  /* Fondo claro */
+  --accent: #ea580c;
+  /* Naranja fuerte para botones */
+}
+
+/* === PERSONALIZA LA TIPOGRAFÍA Y EL FONDO GLOBAL === */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff8f1;
+  /* naranja muy suave */
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+}
