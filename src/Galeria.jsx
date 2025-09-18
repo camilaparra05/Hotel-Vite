@@ -27,7 +27,7 @@ function Galeria() {
         <Slider {...settings}>
           <div>
             <img
-              src="/public/1.jpeg"
+              src="./public/1.jpeg"
               alt="Habitación 1"
               className="w-full h-96 object-cover rounded-xl shadow"
             />
