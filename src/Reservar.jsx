@@ -91,7 +91,7 @@ function Reservar() {
       toast.success("✅ ¡Reserva registrada con éxito!");
 
       const mensaje = encodeURIComponent(
-        `Hola, soy ${formData.nombre}. He realizado una reserva del ${formData.fecha_entrada} al ${formData.fecha_salida} para la habitación ${formData.habitacion}. ¡Espero confirmación!`
+        `Hola, soy ${formData.nombre}. He realizado una reserva del ${formData.fecha_entrada} al ${formData.fecha_salida} para ${formData.ocupacio} persponas. ¡Espero confirmación!`
       );
 
       setTimeout(() => {
@@ -132,32 +132,6 @@ function Reservar() {
             <input type="date" name="fecha_entrada" value={formData.fecha_entrada} onChange={handleChange} required className="p-3 border border-gray-300 rounded-lg shadow-sm" />
             <input type="date" name="fecha_salida" value={formData.fecha_salida} onChange={handleChange} required className="p-3 border border-gray-300 rounded-lg shadow-sm" />
           </div>
-
-          <select name="habitacion" value={formData.habitacion} onChange={handleChange} required className="p-3 border border-gray-300 rounded-lg shadow-sm">
-            <option value="">Selecciona una habitación</option>
-            <optgroup label="Piso 1">
-              <option value="101">101</option>
-              <option value="102">102</option>
-              <option value="103">103</option>
-              <option value="104">104</option>
-            </optgroup>
-            <optgroup label="Piso 2">
-              {Array.from({ length: 9 }, (_, i) => 201 + i).map((num) => (
-                <option key={num} value={num}>{num}</option>
-              ))}
-            </optgroup>
-            <optgroup label="Piso 3">
-              {Array.from({ length: 10 }, (_, i) => 301 + i).map((num) => (
-                <option key={num} value={num}>{num}</option>
-              ))}
-            </optgroup>
-            <optgroup label="Piso 4">
-              {Array.from({ length: 6 }, (_, i) => 401 + i).map((num) => (
-                <option key={num} value={num}>{num}</option>
-              ))}
-            </optgroup>
-          </select>
-
           <button type="submit" className="bg-orange-600 text-white font-semibold py-3 rounded-lg hover:bg-orange-500 transition shadow-md">
             Reservar ahora
           </button>
