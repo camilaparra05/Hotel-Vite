@@ -27,63 +27,63 @@ function Galeria() {
         <Slider {...settings}>
           <div>
             <img
-              src="./public/1.jpeg"
+              src="/1.jpeg"
               alt="Habitación 1"
               className="w-full h-96 object-cover rounded-xl shadow"
             />
           </div>
           <div>
             <img
-              src="/public/8.jpeg"
+              src="/8.jpeg"
               alt="Habitación 2"
               className="w-full h-96 object-cover rounded-xl shadow"
             />
           </div>
           <div>
             <img
-              src="/public/5.jpeg"
+              src="/5.jpeg"
               alt="Baño"
               className="w-full h-96 object-cover rounded-xl shadow"
             />
           </div>
           <div>
             <img
-              src="/public/2.jpeg"
+              src="/2.jpeg"
               alt="Habitación 1"
               className="w-full h-96 object-cover rounded-xl shadow"
             />
           </div>
           <div>
             <img
-              src="/public/3.jpeg"
+              src="/3.jpeg"
               alt="Habitación 2"
               className="w-full h-96 object-cover rounded-xl shadow"
             />
           </div>
           <div>
             <img
-              src="/public/4.jpeg"
+              src="/4.jpeg"
               alt="Baño"
               className="w-full h-96 object-cover rounded-xl shadow"
             />
           </div>
           <div>
             <img
-              src="/public/7.jpeg"
+              src="/7.jpeg"
               alt="Habitación 1"
               className="w-full h-96 object-cover rounded-xl shadow"
             />
           </div>
           <div>
             <img
-              src="/public/6.jpeg"
+              src="/6.jpeg"
               alt="Habitación 2"
               className="w-full h-96 object-cover rounded-xl shadow"
             />
           </div>
           <div>
             <img
-              src="/public/9.jpeg"
+              src="/9.jpeg"
               alt="Baño"
               className="w-full h-96 object-cover rounded-xl shadow"
             />

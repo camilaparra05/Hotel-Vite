@@ -4,17 +4,17 @@ const habitaciones = [
   {
     nombre: "Suite Familiar",
     descripcion: "Perfecta para familias, con vista a la montaña.",
-    imagen: "/public/11.jpeg",
+    imagen: "/11.jpeg",
   },
   {
     nombre: "Habitación con Acomodacion",
     descripcion: "Diseñada para tener espacios mas amplios.",
-    imagen: "/public/10.jpeg",
+    imagen: "/10.jpeg",
   },
   {
     nombre: "Deluxe con Jacuzzi",
     descripcion: "Lujo y relajación con jacuzzi privado y cama king.",
-    imagen: "/public/7.jpeg",
+    imagen: "/7.jpeg",
   },
 ];
 
