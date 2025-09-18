@@ -3,21 +3,18 @@ import { useEffect, useState } from "react";
 const habitaciones = [
   {
     nombre: "Suite Familiar",
-    descripcion: "Perfecta para familias, con balcón y vista a la montaña.",
-    precio: "$250.000 / noche",
-    imagen: "https://source.unsplash.com/featured/?hotel,family-room",
+    descripcion: "Perfecta para familias, con vista a la montaña.",
+    imagen: "/public/11.jpeg",
   },
   {
-    nombre: "Habitación Ecológica",
-    descripcion: "Diseñada con materiales sostenibles y mucha luz natural.",
-    precio: "$180.000 / noche",
-    imagen: "https://source.unsplash.com/featured/?eco,room",
+    nombre: "Habitación con Acomodacion",
+    descripcion: "Diseñada para tener espacios mas amplios.",
+    imagen: "/public/10.jpeg",
   },
   {
     nombre: "Deluxe con Jacuzzi",
     descripcion: "Lujo y relajación con jacuzzi privado y cama king.",
-    precio: "$320.000 / noche",
-    imagen: "https://source.unsplash.com/featured/?jacuzzi,luxury-room",
+    imagen: "/public/7.jpeg",
   },
 ];
 

@@ -36,7 +36,7 @@ function Sostenibilidad() {
     <section className="bg-white py-16 px-4">
       <div className="max-w-xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-orange-700 mb-8">
-          🌱 Sostenibilidad
+          Contamos con:
         </h2>
         <Slider {...settings}>
           {items.map((item, index) => (
